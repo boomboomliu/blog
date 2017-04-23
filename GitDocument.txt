@@ -5,7 +5,9 @@ git push 出错可能是因为README.txt文件不在本地？
 git pull --rebase origin master
 终止rebase行动
 git rebase --abort
-//////////////////////////////////
+
+/////////////////////////////基础操作//////////////////////////////////
+
 git init 初始化仓库
 git add flie 把文件添加到本地仓库
 git commit 把文件提交到仓库
@@ -24,7 +26,7 @@ git checkout -- file可以丢弃工作区的修改 让这个文件回到最近一次git commit或git a
 git reset HEAD file 可以把暂存区的修改撤销掉（unstage）
 rm test.txt 工作区删除文件  版本库删除 git rm删掉，并且git commit 提交
 
-///////////远程仓库///////////////////////////////
+/////////////////远程仓库///////////////////////////////
 //创建 SSK
 SSK ssh-keygen -t rsa -C "youremail@example.com"
 第2步：登陆GitHub，打开“Account settings”，“SSH Keys”页面：
@@ -37,7 +39,7 @@ git push  命令，实际上是把当前分支master推送到远程的新master分支。git push -u or
 //从远程仓库克隆
  git clone git@github.com:michaelliao（github账号名）/gitskills.git
  
- //创建开发分支 切换分支
+////////////////////////协同工作////////////////////////////
 git checkout -b dev 创建并切换
 git branch dev 创建
 git checkout dev 切换
