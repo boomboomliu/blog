@@ -1,7 +1,10 @@
 git ls-files//查看缓冲区中的文件
 git remote rm name 删除远程仓库
 git push 出错可能是因为README.txt文件不在本地？
+拉取并开始rebase行动
 git pull --rebase origin master
+终止rebase行动
+git rebase --abort
 //////////////////////////////////
 git init 初始化仓库
 git add flie 把文件添加到本地仓库
