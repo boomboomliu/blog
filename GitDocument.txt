@@ -41,4 +41,4 @@ git branch 命令查看当前分支
 
 git merge 命令用于合并指定分支到当前分支
 
-git branch -d dev 删除分支
+git branch -d dev 删除开发分支
